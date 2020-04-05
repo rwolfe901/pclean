@@ -1,0 +1,22 @@
+PowerBASIC 6 Console Compiler
+© 1996-2019 PowerBASIC Tools, LLC
+Franklin, North Carolina USA
+All Rights Reserved
+
+Primary source:  C:\Users\rtodd\Documents\pclean\pclean.bas   {67 total lines}
+Target compilation:  pclean.EXE
+Compile time:  0.1 seconds, at 80400 lines/minute
+
+1632 bytes compiled code, 13984 bytes RTLibrary,
+928 bytes string literals, and 3580 bytes dgroup.
+Executable stack size:  1048576 bytes.
+Disk image: 19968 bytes   Memory image: 18492 bytes.
+
+Component Files:
+----------------
+C:\Users\rtodd\Documents\pclean\pclean.bas
+
+
+Code Extracted:
+---------------
+<NONE>
