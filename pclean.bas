@@ -57,8 +57,9 @@ FUNCTION PBMAIN () AS LONG
     PRINT "Replacing with: "; replacewith
     WHILE NOT EOF(1)
         LINE INPUT #1, filedata
-        REPLACE searchfor WITH replacewith IN filedata
-        PRINT #2, filedata
+        REGREPL "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" IN filedata WITH "ip.local"
+        REGREPL "[a-z]+\.[a-z]+\.[a-z]+\.[a-z]+" IN filedata WITH "host.local"
+        REGREPL "[A-Z]+\.[A-Z]+\.[A-Z]+\.[Z-Z]+" IN filedata WITH "host.local"
     WEND
     CLOSE #1
     CLOSE #2
